@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: site-app
+    repo: https://github.com/egipciooman/Site
+    branch: main
+    env: node
+    plan: free
+    buildCommand: sh -lc "npm ci || npm install; npm run build"
+    startCommand: npm start
+    autoDeploy: true
+    rootDir: .
