@@ -76,7 +76,11 @@
     "wouter": "^3.3.5",
     "ws": "^8.18.0",
     "zod": "^3.24.2",
-    "zod-validation-error": "^3.4.0"
+    "zod-validation-error": "^3.4.0",
+    "bcryptjs": "^2.4.3",
+    "google-auth-library": "^8.7.0",
+    "resend": "^1.0.0",
+    "helmet": "^7.0.0"
   },
   "devDependencies": {
     "@replit/vite-plugin-cartographer": "^0.4.4",
